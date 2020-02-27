@@ -1,0 +1,14 @@
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\bin\Debug\WinFormsUIMultiColor.exe
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\bin\Debug\WinFormsUIMultiColor.pdb
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csprojAssemblyReference.cache
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.FormMainMenu.resources
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormCustomer.resources
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormOrder.resources
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormProduct.resources
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormReporting.resources
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Properties.Resources.resources
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.GenerateResource.cache
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.CopyComplete
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.exe
+C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.pdb
