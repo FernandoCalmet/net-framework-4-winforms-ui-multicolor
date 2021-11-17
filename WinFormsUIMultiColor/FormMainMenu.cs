@@ -1,25 +1,22 @@
 ﻿using FontAwesome.Sharp;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Windows.Forms;
+using WinFormsUIMultiColor.Utils;
 
 namespace WinFormsUIMultiColor
 {
     public partial class FormMainMenu : Form
     {
-        // Campos
+        #region "Fields"
         private IconButton currentButton;
         private Random random;
         private int tempIndex;
         private Form activeForm;
+        #endregion
 
-        // Constructor
+        #region "Constructor"
         public FormMainMenu()
         {
             InitializeComponent();
@@ -29,14 +26,15 @@ namespace WinFormsUIMultiColor
             this.ControlBox = false;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
-        
+        #endregion        
+
+        #region "Methods"
+        // Metodos que permiten mover el panel mediante la barra de titulo
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
-
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
-        // Metodos
         private Color SelectThemeColor()
         {
             int index = random.Next(ThemeColor.ColorList.Count);
@@ -49,6 +47,7 @@ namespace WinFormsUIMultiColor
             string color = ThemeColor.ColorList[index];
             return ColorTranslator.FromHtml(color);
         }
+
         private void ActivateButton(object btnSender)
         {
             // Resaltar el boton que se ha hecho clic (formulario activo)
@@ -75,13 +74,12 @@ namespace WinFormsUIMultiColor
             }
         }
         private void DisableButton()
-        {
-            // Desactivar el resaltado del boton-valores predeterminados
+        {// Desactivar el resaltado del boton-valores predeterminados
             foreach (Control previousBtn in panelMenu.Controls)
             {
                 if (previousBtn.GetType() == typeof(IconButton))
                 {
-                    previousBtn.BackColor = Color.FromArgb(51, 51, 76);
+                    previousBtn.BackColor = Color.FromArgb(46, 46, 46);
                     previousBtn.ForeColor = Color.Gainsboro;
                     previousBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 }
@@ -96,22 +94,24 @@ namespace WinFormsUIMultiColor
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            this.panelDesktop.Controls.Add(childForm);
-            this.panelDesktop.Tag = childForm;
+            panelDesktop.Controls.Add(childForm);
+            panelDesktop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
             labelTitle.Text = childForm.Text;
-        }        
+        }
         private void Reset()
         {
             DisableButton();
             labelTitle.Text = "HOME";
-            panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
-            panelLogo.BackColor = Color.FromArgb(39, 39, 58);
+            panelTitleBar.BackColor = Color.FromArgb(31, 31, 31);
+            panelLogo.BackColor = Color.FromArgb(31, 31, 31);
             currentButton = null;
             iconButtonClose.Visible = false;
         }
+        #endregion
 
+        #region "Events"
         private void iconButtonProducts_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormProduct(), sender);
@@ -162,5 +162,6 @@ namespace WinFormsUIMultiColor
         {
             this.WindowState = FormWindowState.Minimized;
         }
+        #endregion
     }
 }

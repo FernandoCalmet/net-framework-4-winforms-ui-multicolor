@@ -43,6 +43,7 @@
             this.labelTitle = new System.Windows.Forms.Label();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.iconButtonLogoHome = new FontAwesome.Sharp.IconButton();
+            this.labelAuthor = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -51,7 +52,7 @@
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
             this.panelMenu.Controls.Add(this.iconButtonReporting);
             this.panelMenu.Controls.Add(this.iconButtonCustomers);
             this.panelMenu.Controls.Add(this.iconButtonOrders);
@@ -161,7 +162,7 @@
             // 
             // panelLogo
             // 
-            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.panelLogo.Controls.Add(this.iconButtonLogo);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
@@ -193,7 +194,7 @@
             // 
             // panelTitleBar
             // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.panelTitleBar.Controls.Add(this.iconButtonWinMin);
             this.panelTitleBar.Controls.Add(this.iconButtonWinMax);
             this.panelTitleBar.Controls.Add(this.iconButtonWinClose);
@@ -212,9 +213,9 @@
             this.iconButtonWinMin.FlatAppearance.BorderSize = 0;
             this.iconButtonWinMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonWinMin.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonWinMin.ForeColor = System.Drawing.Color.White;
+            this.iconButtonWinMin.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButtonWinMin.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
-            this.iconButtonWinMin.IconColor = System.Drawing.Color.White;
+            this.iconButtonWinMin.IconColor = System.Drawing.Color.Silver;
             this.iconButtonWinMin.IconSize = 28;
             this.iconButtonWinMin.Location = new System.Drawing.Point(485, 6);
             this.iconButtonWinMin.Name = "iconButtonWinMin";
@@ -230,9 +231,9 @@
             this.iconButtonWinMax.FlatAppearance.BorderSize = 0;
             this.iconButtonWinMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonWinMax.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonWinMax.ForeColor = System.Drawing.Color.White;
+            this.iconButtonWinMax.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButtonWinMax.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            this.iconButtonWinMax.IconColor = System.Drawing.Color.White;
+            this.iconButtonWinMax.IconColor = System.Drawing.Color.Silver;
             this.iconButtonWinMax.IconSize = 28;
             this.iconButtonWinMax.Location = new System.Drawing.Point(519, 6);
             this.iconButtonWinMax.Name = "iconButtonWinMax";
@@ -248,9 +249,9 @@
             this.iconButtonWinClose.FlatAppearance.BorderSize = 0;
             this.iconButtonWinClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonWinClose.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonWinClose.ForeColor = System.Drawing.Color.White;
+            this.iconButtonWinClose.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButtonWinClose.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.iconButtonWinClose.IconColor = System.Drawing.Color.White;
+            this.iconButtonWinClose.IconColor = System.Drawing.Color.Silver;
             this.iconButtonWinClose.IconSize = 28;
             this.iconButtonWinClose.Location = new System.Drawing.Point(553, 6);
             this.iconButtonWinClose.Name = "iconButtonWinClose";
@@ -267,7 +268,7 @@
             this.iconButtonClose.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.iconButtonClose.ForeColor = System.Drawing.Color.White;
             this.iconButtonClose.IconChar = FontAwesome.Sharp.IconChar.Times;
-            this.iconButtonClose.IconColor = System.Drawing.Color.White;
+            this.iconButtonClose.IconColor = System.Drawing.Color.Silver;
             this.iconButtonClose.IconSize = 32;
             this.iconButtonClose.Location = new System.Drawing.Point(6, 31);
             this.iconButtonClose.Name = "iconButtonClose";
@@ -291,6 +292,8 @@
             // 
             // panelDesktop
             // 
+            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.panelDesktop.Controls.Add(this.labelAuthor);
             this.panelDesktop.Controls.Add(this.iconButtonLogoHome);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 80);
@@ -305,9 +308,9 @@
             this.iconButtonLogoHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButtonLogoHome.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.iconButtonLogoHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonLogoHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.iconButtonLogoHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(96)))), ((int)(((byte)(232)))));
             this.iconButtonLogoHome.IconChar = FontAwesome.Sharp.IconChar.Cat;
-            this.iconButtonLogoHome.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.iconButtonLogoHome.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(96)))), ((int)(((byte)(232)))));
             this.iconButtonLogoHome.IconSize = 180;
             this.iconButtonLogoHome.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.iconButtonLogoHome.Location = new System.Drawing.Point(202, 55);
@@ -321,6 +324,18 @@
             this.iconButtonLogoHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButtonLogoHome.UseVisualStyleBackColor = true;
             // 
+            // labelAuthor
+            // 
+            this.labelAuthor.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelAuthor.AutoSize = true;
+            this.labelAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAuthor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(96)))), ((int)(((byte)(232)))));
+            this.labelAuthor.Location = new System.Drawing.Point(191, 238);
+            this.labelAuthor.Name = "labelAuthor";
+            this.labelAuthor.Size = new System.Drawing.Size(202, 20);
+            this.labelAuthor.TabIndex = 2;
+            this.labelAuthor.Text = "github.com/fernandocalmet";
+            // 
             // FormMainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,12 +346,14 @@
             this.Controls.Add(this.panelMenu);
             this.MinimumSize = new System.Drawing.Size(600, 400);
             this.Name = "FormMainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             this.panelDesktop.ResumeLayout(false);
+            this.panelDesktop.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -358,6 +375,7 @@
         private FontAwesome.Sharp.IconButton iconButtonWinClose;
         private FontAwesome.Sharp.IconButton iconButtonWinMin;
         private FontAwesome.Sharp.IconButton iconButtonWinMax;
+        private System.Windows.Forms.Label labelAuthor;
     }
 }
 

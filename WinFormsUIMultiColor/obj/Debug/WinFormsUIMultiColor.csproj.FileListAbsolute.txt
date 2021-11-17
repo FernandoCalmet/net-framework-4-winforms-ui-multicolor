@@ -12,3 +12,17 @@ C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\
 C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.CopyComplete
 C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.exe
 C:\Users\ferca\source\repos\WinFormsUIMultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.pdb
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\bin\Debug\WinFormsUIMultiColor.exe
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\bin\Debug\WinFormsUIMultiColor.pdb
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\bin\Debug\FontAwesome.Sharp.dll
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.FormMainMenu.resources
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormCustomer.resources
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormOrder.resources
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormProduct.resources
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Forms.FormReporting.resources
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.Properties.Resources.resources
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.GenerateResource.cache
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.CoreCompileInputs.cache
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.CopyComplete
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.exe
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.pdb

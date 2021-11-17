@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 
-namespace WinFormsUIMultiColor
+namespace WinFormsUIMultiColor.Utils
 {
     public static class ThemeColor
     {
         public static Color PrimaryColor { get; set; }
         public static Color SecondaryColor { get; set; }
 
-        public static List<string> ColorList = new List<string>() 
-        { 
+        public static List<string> ColorList = new List<string>()
+        {
             "#3F51B5",
             "#009688",
             "#FF5722",
@@ -41,6 +38,7 @@ namespace WinFormsUIMultiColor
             "#7BCFE9",
             "#B71C46"
         };
+
         public static Color ChangeColorBrightness(Color color, double correctionFactor)
         {
             double red = color.R;
@@ -61,6 +59,7 @@ namespace WinFormsUIMultiColor
                 green = (255 - green) * correctionFactor + green;
                 blue = (255 - blue) * correctionFactor + blue;
             }
+
             return Color.FromArgb(color.A, (byte)red, (byte)green, (byte)blue);
         }
     }

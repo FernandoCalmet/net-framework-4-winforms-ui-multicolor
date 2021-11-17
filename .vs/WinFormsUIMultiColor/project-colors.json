@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d3456c58-b55d-4ec3-9838-a3fb042c7e10": {
+      "ProjectGuid": "d3456c58-b55d-4ec3-9838-a3fb042c7e10",
+      "DisplayName": "WinFormsUIMultiColor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
