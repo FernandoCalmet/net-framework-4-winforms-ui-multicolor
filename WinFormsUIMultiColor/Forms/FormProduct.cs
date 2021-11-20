@@ -28,7 +28,6 @@ namespace WinFormsUIMultiColor.Forms
                 }
             }
             label1.ForeColor = ThemeColor.SecondaryColor;
-            label5.ForeColor = ThemeColor.PrimaryColor;
         }
         #endregion
 
