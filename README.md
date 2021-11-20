@@ -10,7 +10,7 @@
 * [Acerca del proyecto](#acerca-del-proyecto)
 * [Instalación](#instalación)
 * [Dependencias](#dependencias)
-* [Licensia](#licensia)
+* [Licencia](#licencia)
 * [Vista previa](#vista-previa)
 
 ## 🔥 ACERCA DEL PROYECTO
@@ -35,7 +35,7 @@ dotnet run
 
 - [FontAwesome.Sharp](https://www.nuget.org/packages/FontAwesome.Sharp) : Una biblioteca para incrustar iconos de Font Awesome en aplicaciones de WPF y Windows Forms.
 
-## 📄 LICENSIA
+## 📄 LICENCIA
 
 Este proyecto está bajo la Licencia (Licencia MIT) - mire el archivo [LICENSE](LICENSE) para más detalles.
 
