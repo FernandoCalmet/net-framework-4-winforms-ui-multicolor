@@ -9,14 +9,14 @@ namespace WinFormsUIMultiColor
 {
     public partial class FormMainMenu : Form
     {
-        #region "Fields"
+        #region "Definición de Campos"
         private IconButton currentButton;
         private Random random;
         private int tempIndex;
         private Form activeForm;
         #endregion
 
-        #region "Constructor"
+        #region "Constructores"
         public FormMainMenu()
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace WinFormsUIMultiColor
         }
         #endregion        
 
-        #region "Methods"
+        #region "Definición de Métodos"
         // Metodos que permiten mover el panel mediante la barra de titulo
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -111,7 +111,7 @@ namespace WinFormsUIMultiColor
         }
         #endregion
 
-        #region "Events"
+        #region "Métodos de Eventos"
         private void iconButtonProducts_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormProduct(), sender);

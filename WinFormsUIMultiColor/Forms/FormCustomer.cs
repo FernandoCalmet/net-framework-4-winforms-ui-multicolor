@@ -7,15 +7,14 @@ namespace WinFormsUIMultiColor.Forms
 {
     public partial class FormCustomer : Form
     {
+        #region "Constructores"
         public FormCustomer()
         {
             InitializeComponent();
         }
+        #endregion
 
-        private void FormCustomer_Load(object sender, EventArgs e)
-        {
-            LoadTheme();
-        }
+        #region "Definición de Métodos"
         private void LoadTheme()
         {
             foreach (Control btns in this.Controls)
@@ -31,5 +30,13 @@ namespace WinFormsUIMultiColor.Forms
             label1.ForeColor = ThemeColor.SecondaryColor;
             label5.ForeColor = ThemeColor.PrimaryColor;
         }
+        #endregion
+
+        #region "Métodos de Eventos"
+        private void FormCustomer_Load(object sender, EventArgs e)
+        {
+            LoadTheme();
+        }
+        #endregion
     }
 }

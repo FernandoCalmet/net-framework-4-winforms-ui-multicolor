@@ -26,3 +26,4 @@ D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debu
 D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.CopyComplete
 D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.exe
 D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.pdb
+D:\Github\FernandoCalmet\CS-WinForms-UI-MultiColor\WinFormsUIMultiColor\obj\Debug\WinFormsUIMultiColor.csproj.AssemblyReference.cache

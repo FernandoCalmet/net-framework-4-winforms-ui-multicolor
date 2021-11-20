@@ -5,6 +5,7 @@ namespace WinFormsUIMultiColor.Utils
 {
     public static class ThemeColor
     {
+        #region "Definición de Métodos"
         public static Color PrimaryColor { get; set; }
         public static Color SecondaryColor { get; set; }
 
@@ -62,5 +63,6 @@ namespace WinFormsUIMultiColor.Utils
 
             return Color.FromArgb(color.A, (byte)red, (byte)green, (byte)blue);
         }
+        #endregion
     }
 }
