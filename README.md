@@ -39,6 +39,10 @@ dotnet run
 
 Este proyecto está bajo la Licencia (Licencia MIT) - mire el archivo [LICENSE](LICENSE) para más detalles.
 
+## ⭐️ DAME UNA ESTRELLA
+
+Si esta Implementación le resultó útil o la utilizó en sus Proyectos, déle una estrella. ¡Gracias! O, si te sientes realmente generoso, [¡Apoye el proyecto con una pequeña contribución!](https://ko-fi.com/fernandocalmet).
+
 ## 👓 VISTA PREVIA
 
 ![Preview](docs/demo.gif)
