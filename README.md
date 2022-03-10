@@ -22,7 +22,7 @@ Este proyecto es una muestra de como se puede cambiar los paneles en multiples c
 Clonar el repositorio.
 
 ```bash
-gh repo clone FernandoCalmet/CS-WinForms-UI-MultiColor
+gh repo clone FernandoCalmet/NET-Framework-4-WinForms-UI-MultiColor
 ```
 
 Ejecutar aplicación.
